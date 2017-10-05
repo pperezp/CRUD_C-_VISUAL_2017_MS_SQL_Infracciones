@@ -1,0 +1,5 @@
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\model\bin\Debug\model.dll
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\model\bin\Debug\model.pdb
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\model\obj\Debug\model.dll
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\model\obj\Debug\model.pdb
+C:\Users\Patricio Pérez Pinto\documents\visual studio 2017\Projects\BD_Infracciones\model\obj\Debug\model.csprojResolveAssemblyReference.cache

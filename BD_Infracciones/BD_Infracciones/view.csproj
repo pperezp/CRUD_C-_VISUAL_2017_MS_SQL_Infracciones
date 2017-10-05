@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{666E3A1C-2033-447B-A766-CEC94FF9962E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BD_Infracciones</RootNamespace>
+    <AssemblyName>BD_Infracciones</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrearAutomovil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearAutomovil.Designer.cs">
+      <DependentUpon>CrearAutomovil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearInfraccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearInfraccion.Designer.cs">
+      <DependentUpon>CrearInfraccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearMarcaModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearMarcaModelo.Designer.cs">
+      <DependentUpon>CrearMarcaModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearPolicia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearPolicia.Designer.cs">
+      <DependentUpon>CrearPolicia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CrearAutomovil.resx">
+      <DependentUpon>CrearAutomovil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearInfraccion.resx">
+      <DependentUpon>CrearInfraccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearMarcaModelo.resx">
+      <DependentUpon>CrearMarcaModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearPolicia.resx">
+      <DependentUpon>CrearPolicia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\model\model.csproj">
+      <Project>{97f3b691-72cf-432d-bcfb-157263754914}</Project>
+      <Name>model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

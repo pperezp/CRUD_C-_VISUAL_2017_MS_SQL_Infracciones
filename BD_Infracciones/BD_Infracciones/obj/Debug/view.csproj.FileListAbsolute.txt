@@ -1,0 +1,15 @@
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\bin\Debug\BD_Infracciones.exe.config
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\bin\Debug\BD_Infracciones.exe
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\bin\Debug\BD_Infracciones.pdb
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\view.csprojResolveAssemblyReference.cache
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.Properties.Resources.resources
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\view.csproj.GenerateResource.Cache
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.exe
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.pdb
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\bin\Debug\model.dll
+c:\users\patricio pérez pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\bin\Debug\model.pdb
+C:\Users\Patricio Pérez Pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.MenuPrincipal.resources
+C:\Users\Patricio Pérez Pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.CrearMarcaModelo.resources
+C:\Users\Patricio Pérez Pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.CrearPolicia.resources
+C:\Users\Patricio Pérez Pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.CrearAutomovil.resources
+C:\Users\Patricio Pérez Pinto\documents\visual studio 2017\Projects\BD_Infracciones\BD_Infracciones\obj\Debug\BD_Infracciones.CrearInfraccion.resources

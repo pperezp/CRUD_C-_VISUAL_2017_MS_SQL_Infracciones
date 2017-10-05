@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "view", "BD_Infracciones\view.csproj", "{666E3A1C-2033-447B-A766-CEC94FF9962E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "model", "model\model.csproj", "{97F3B691-72CF-432D-BCFB-157263754914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{666E3A1C-2033-447B-A766-CEC94FF9962E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666E3A1C-2033-447B-A766-CEC94FF9962E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666E3A1C-2033-447B-A766-CEC94FF9962E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666E3A1C-2033-447B-A766-CEC94FF9962E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F3B691-72CF-432D-BCFB-157263754914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F3B691-72CF-432D-BCFB-157263754914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F3B691-72CF-432D-BCFB-157263754914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F3B691-72CF-432D-BCFB-157263754914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
